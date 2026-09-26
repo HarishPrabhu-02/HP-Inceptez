@@ -1,0 +1,5 @@
+erDiagram
+    EMPLOYEE ||--o| EMPLOYEE : reports_to
+    EMPLOYEE ||--o{ PROMOTION : receives
+    DEPARTMENT ||--|{ EMPLOYEE : employs
+    EMPLOYEE }|--|{ PROJECT : works_on
